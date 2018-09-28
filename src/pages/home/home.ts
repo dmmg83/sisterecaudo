@@ -141,7 +141,7 @@ export class HomePage {
 
             //console.log("TOKEN: " + this._TOKEN);
 
-            if (res.status != 'error') {
+            if (res != 'error') {
               let loading = this.loadingCtrl.create({
                 content: 'Iniciando Sesión...'
               });
